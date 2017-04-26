@@ -31,6 +31,7 @@
 		458F0EDE1EB033A500F52418 /* WKKeyboardPopView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 458F0EDD1EB033A500F52418 /* WKKeyboardPopView.xib */; };
 		458F0EE11EB033B500F52418 /* UIImage+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 458F0EE01EB033B500F52418 /* UIImage+Extension.m */; };
 		458F0EE31EB0342200F52418 /* keyboard-click.aiff in Resources */ = {isa = PBXBuildFile; fileRef = 458F0EE21EB0342200F52418 /* keyboard-click.aiff */; };
+		458F0EE51EB0390C00F52418 /* SafeKeyboard.png in Resources */ = {isa = PBXBuildFile; fileRef = 458F0EE41EB0390C00F52418 /* SafeKeyboard.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -102,6 +103,7 @@
 		458F0EDF1EB033B500F52418 /* UIImage+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Extension.h"; sourceTree = "<group>"; };
 		458F0EE01EB033B500F52418 /* UIImage+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Extension.m"; sourceTree = "<group>"; };
 		458F0EE21EB0342200F52418 /* keyboard-click.aiff */ = {isa = PBXFileReference; lastKnownFileType = audio.aiff; path = "keyboard-click.aiff"; sourceTree = "<group>"; };
+		458F0EE41EB0390C00F52418 /* SafeKeyboard.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = SafeKeyboard.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -132,6 +134,7 @@
 		458F0E701EB0325200F52418 = {
 			isa = PBXGroup;
 			children = (
+				458F0EE41EB0390C00F52418 /* SafeKeyboard.png */,
 				458F0EB01EB0331000F52418 /* Masonry */,
 				458F0E7B1EB0325200F52418 /* SafeKeyboard */,
 				458F0E951EB0325300F52418 /* SafeKeyboardTests */,
@@ -354,6 +357,7 @@
 				458F0E8C1EB0325300F52418 /* LaunchScreen.storyboard in Resources */,
 				458F0E891EB0325300F52418 /* Assets.xcassets in Resources */,
 				458F0E871EB0325200F52418 /* Main.storyboard in Resources */,
+				458F0EE51EB0390C00F52418 /* SafeKeyboard.png in Resources */,
 				458F0EE31EB0342200F52418 /* keyboard-click.aiff in Resources */,
 				458F0EDE1EB033A500F52418 /* WKKeyboardPopView.xib in Resources */,
 			);
@@ -632,6 +636,7 @@
 				458F0EA81EB0325300F52418 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		458F0EA91EB0325300F52418 /* Build configuration list for PBXNativeTarget "SafeKeyboardTests" */ = {
 			isa = XCConfigurationList;
@@ -640,6 +645,7 @@
 				458F0EAB1EB0325300F52418 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		458F0EAC1EB0325300F52418 /* Build configuration list for PBXNativeTarget "SafeKeyboardUITests" */ = {
 			isa = XCConfigurationList;
@@ -648,6 +654,7 @@
 				458F0EAE1EB0325300F52418 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
